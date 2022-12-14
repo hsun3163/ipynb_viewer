@@ -1,0 +1,60 @@
+ROSMAP-PI1:
+  PI: Dr. Philip L. De Jager
+  Institution: Columbia University Irving Medical Center
+  Grant_number: U01AG061356,RF1AG057473,U01AG046152
+  Contact_person: Dr. Philip L. De Jager (pld2115@cumc.columbia.edu)
+  Publication: 'PMID: 35754708'
+  Acknowledgement: "\"Study data were generated from postmortem brain tissue provided\
+    \ by the Religious Orders Study and Rush Memory and Aging Project (ROSMAP) cohort\
+    \ at Rush Alzheimer\u2019s Disease Center, Rush University Medical Center, Chicago.\
+    \ This work was funded by NIH grants U01AG061356 (De Jager/Bennett), RF1AG057473\
+    \ (De Jager/Bennett), and U01AG046152 (De Jager/Bennett) as part of the AMP-AD\
+    \ consortium, as well as NIH grants R01AG066831 (Menon) and U01AG072572 (De Jager/St\
+    \ George-Hyslop).\""
+  Study_name: Religious Orders Study and Rush Memory and Aging Project (ROSMAP)
+  Study_Description: "ROS is a longitudinal clinical-pathologic cohort study of aging\
+    \ and Alzheimer's disease (AD) run from Rush University that enrolled individuals\
+    \ from religious communities for longitudinal clinical analysis and brain donation.\
+    \ MAP is a longitudinal, epidemiologic clinical-pathologic cohort study of common\
+    \ chronic conditions of aging with an emphasis on decline in cognitive and motor\
+    \ function and risk of Alzheimer\u2019s disease that began in 1997 and is run\
+    \ from Rush University. This study was designed to complement the ROS study by\
+    \ enrolling individuals with a wider range of life experiences and socioeconomic\
+    \ status into a study of similar structure and design as ROS. "
+  Dataset_name: ROSMAP snRNAseq Dataset Pseudo-Bulk data
+  Dataset_Description: The dataset pool snRNAseq data from Dorsolateral Prefrontal
+    Cortex based on different cell types.
+  Disease: Alzheimer's disease
+  Website&Logo: https://www.synapse.org/#!Synapse:syn23650894
+  Logo: NR
+  Additional Study information: NR
+ROSMAP-PI2:
+  PI: Dr. David A. Bennett
+  Institution: Rush University
+  Grant_number: U01AG061356,RF1AG057473,U01AG046153
+  Contact_person: Dr. David A. Bennett (david_a_bennett@rush.edu)
+  Publication: 'PMID: 35754708'
+  Acknowledgement: "\"Study data were generated from postmortem brain tissue provided\
+    \ by the Religious Orders Study and Rush Memory and Aging Project (ROSMAP) cohort\
+    \ at Rush Alzheimer\u2019s Disease Center, Rush University Medical Center, Chicago.\
+    \ This work was funded by NIH grants U01AG061356 (De Jager/Bennett), RF1AG057473\
+    \ (De Jager/Bennett), and U01AG046152 (De Jager/Bennett) as part of the AMP-AD\
+    \ consortium, as well as NIH grants R01AG066831 (Menon) and U01AG072572 (De Jager/St\
+    \ George-Hyslop).\""
+  Study_name: Religious Orders Study and Rush Memory and Aging Project (ROSMAP)
+  Study_Description: "ROS is a longitudinal clinical-pathologic cohort study of aging\
+    \ and Alzheimer's disease (AD) run from Rush University that enrolled individuals\
+    \ from religious communities for longitudinal clinical analysis and brain donation.\
+    \ MAP is a longitudinal, epidemiologic clinical-pathologic cohort study of common\
+    \ chronic conditions of aging with an emphasis on decline in cognitive and motor\
+    \ function and risk of Alzheimer\u2019s disease that began in 1997 and is run\
+    \ from Rush University. This study was designed to complement the ROS study by\
+    \ enrolling individuals with a wider range of life experiences and socioeconomic\
+    \ status into a study of similar structure and design as ROS. "
+  Dataset_name: ROSMAP snRNAseq Dataset Pseudo-Bulk data
+  Dataset_Description: The dataset pool snRNAseq data from Dorsolateral Prefrontal
+    Cortex based on different cell types.
+  Disease: Alzheimer's disease
+  Website&Logo: https://www.synapse.org/#!Synapse:syn23650894
+  Logo: NR
+  Additional Study information: NR
