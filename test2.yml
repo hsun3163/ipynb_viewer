@@ -1,0 +1,172 @@
+Description:
+  ? !!python/tuple
+  - TensorQTL Nominal cis Associations (txt file)
+  - 'chromosome                                                                      '
+  : GRCh38 chromosome name of the variant (e.g. 1,2,3 ...,X).
+  ? !!python/tuple
+  - TensorQTL Nominal cis Associations (txt file)
+  - position
+  : GRCh38 position of the variant.
+  ? !!python/tuple
+  - TensorQTL Nominal cis Associations (txt file)
+  - ref
+  : GRCh38 reference allele.
+  ? !!python/tuple
+  - TensorQTL Nominal cis Associations (txt file)
+  - alt
+  : GRCh38 alternative allele.
+  ? !!python/tuple
+  - TensorQTL Nominal cis Associations (txt file)
+  - variant
+  : ' The variant ID (chromosome_position_ref_alt) e.g. chr19_226776_C_T. Based on
+    GRCh38 coordinates and reference genome, with ''chr'' prefix added to the chromosome
+    number.'
+  ? !!python/tuple
+  - TensorQTL Nominal cis Associations (txt file)
+  - beta
+  : Regression coefficient from the linear model.
+  ? !!python/tuple
+  - TensorQTL Nominal cis Associations (txt file)
+  - se
+  : Standard error of the beta.
+  ? !!python/tuple
+  - TensorQTL Nominal cis Associations (txt file)
+  - pvalue
+  : Nominal P-value from linear regression
+  ? !!python/tuple
+  - TensorQTL Nominal cis Associations (txt file)
+  - TSS_D
+  : Distance of the SNP to the gene transcription start site (TSS)
+  ? !!python/tuple
+  - TensorQTL Nominal cis Associations (txt file)
+  - maf
+  : minor allele frequency
+  ? !!python/tuple
+  - TensorQTL Nominal cis Associations (txt file)
+  - n
+  : Total number of samples without missing data.
+  ? !!python/tuple
+  - TensorQTL Nominal cis Associations (txt file)
+  - ma_samples
+  : Number of samples carrying at least one copy of the minor allele.
+  ? !!python/tuple
+  - TensorQTL Nominal cis Associations (txt file)
+  - ac
+  : 'Count of the alternative allele. '
+  ? !!python/tuple
+  - TensorQTL Nominal cis Associations (txt file)
+  - molecular_trait_id
+  : 'ID of the molecular trait used for QTL mapping. Depending on the quantification
+    method used, this can be either a gene id, exon id, transcript id or a txrevise
+    promoter, splicing or 3''end event id. Examples: ENST00000356937, ENSG00000008128.  '
+  ? !!python/tuple
+  - TensorQTL Nominal cis Associations (txt file)
+  - molecular_trait_object_id
+  : For phenotypes with multiple correlated alternatives (multiple alternative transcripts
+    or exons within a gene, multple alternative promoters in txrevise, multiple alternative
+    intons in Leafcutter), this defines the level at which the phenotypes were aggregated.
+    Permutation p-values are calculated across this set of alternatives.
+  ? !!python/tuple
+  - TensorQTL Empirical Summary Statistics (txt file)
+  - beta_shape1
+  : First parameter value of the fitted beta distribution
+  ? !!python/tuple
+  - TensorQTL Empirical Summary Statistics (txt file)
+  - beta_shape2
+  : Second parameter value of the fitted beta distribution
+  ? !!python/tuple
+  - TensorQTL Empirical Summary Statistics (txt file)
+  - true_df
+  : Effective degrees of freedom the beta distribution approximation
+  ? !!python/tuple
+  - TensorQTL Empirical Summary Statistics (txt file)
+  - pval_true_df
+  : Empirical P-value for the beta distribution approximation
+  ? !!python/tuple
+  - TensorQTL Empirical Summary Statistics (txt file)
+  - variant
+  : ID of the top variant (rsid or chr:position:ref:alt)
+  ? !!python/tuple
+  - TensorQTL Empirical Summary Statistics (txt file)
+  - tss_distance
+  : Distance of the SNP to the gene transcription start site (TSS)
+  ? !!python/tuple
+  - TensorQTL Empirical Summary Statistics (txt file)
+  - ma_samples
+  : Number of samples carrying the minor allele
+  ? !!python/tuple
+  - TensorQTL Empirical Summary Statistics (txt file)
+  - ma_count
+  : Total number of minor alleles across individuals
+  ? !!python/tuple
+  - TensorQTL Empirical Summary Statistics (txt file)
+  - af
+  : allele frequency of top variant
+  ? !!python/tuple
+  - TensorQTL Empirical Summary Statistics (txt file)
+  - ref_factor
+  : Flag indicating if the alternative allele is the minor allele in the cohort (1
+    if AF <= 0.5, -1 if not)
+  ? !!python/tuple
+  - TensorQTL Empirical Summary Statistics (txt file)
+  - pval_nominal
+  : Nominal P-value from linear regression for top variant
+  ? !!python/tuple
+  - TensorQTL Empirical Summary Statistics (txt file)
+  - slope
+  : Slope of the linear regression
+  ? !!python/tuple
+  - TensorQTL Empirical Summary Statistics (txt file)
+  - slope_se
+  : Standard error of the slope
+  ? !!python/tuple
+  - TensorQTL Empirical Summary Statistics (txt file)
+  - p_perm
+  : First permutation P-value directly obtained from the permutations with the direct
+    method
+  ? !!python/tuple
+  - TensorQTL Empirical Summary Statistics (txt file)
+  - p_beta
+  : Second permutation P-value obtained via beta approximation. This is the one to
+    use for downstream analysis
+  ? !!python/tuple
+  - TensorQTL Empirical Summary Statistics (txt file)
+  - n_traits
+  : number of molecular trait
+  ? !!python/tuple
+  - TensorQTL Empirical Summary Statistics (txt file)
+  - molecular_trait_object_id
+  : For phenotypes with multiple correlated alternatives (multiple alternative transcripts
+    or exons within a gene, multple alternative promoters in txrevise, multiple alternative
+    intons in Leafcutter), this defines the level at which the phenotypes were aggregated.
+    Permutation p-values are calculated across this set of alternatives.
+  ? !!python/tuple
+  - TensorQTL Empirical Summary Statistics (txt file)
+  - molecular_trait_id
+  : 'ID of the molecular trait used for QTL mapping. Depending on the quantification
+    method used, this can be either a gene id, exon id, transcript id or a txrevise
+    promoter, splicing or 3''end event id. Examples: ENST00000356937, ENSG00000008128.  '
+  ? !!python/tuple
+  - TensorQTL Empirical Summary Statistics (txt file)
+  - n_variants
+  : Number of variants in the cis region of that trait
+  ? !!python/tuple
+  - TensorQTL Empirical Summary Statistics (txt file)
+  - inflation_factor
+  : lambda genomics inflation factor
+  ? !!python/tuple
+  - TensorQTL Empirical Summary Statistics (txt file)
+  - q_beta
+  : the genome wide Q value for p_beta
+  ? !!python/tuple
+  - TensorQTL Empirical Summary Statistics (txt file)
+  - q_perm
+  : the genome wide Q value for p_perm
+  ? !!python/tuple
+  - TensorQTL Empirical Summary Statistics (txt file)
+  - fdr_beta
+  : the genome wide FDR value for p_beta
+  ? !!python/tuple
+  - TensorQTL Empirical Summary Statistics (txt file)
+  - fdr_perm
+  : the genome wide FDR value for p_perm
